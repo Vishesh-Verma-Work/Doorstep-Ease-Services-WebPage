@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  text-decoration: none;
+    
+}
+:root{
+    --primary-text-color:#183b56;
+    --secondary-text-color:#577592;
+    --accent-color:#2294ed;
+    --padding-inline-section:20px;
+
+
+}
+body{
+    font-family:"Roboto",sans-serif;
+    color: var(--primary-text-color);
+    margin: 6px;
+    background-color:white;
+   
+}
+h1{
+    font-size: 3rem;
+
+}
+h2{
+    font-size: 3rem;
+
+}
+p{
+    font-family: "Roboto",sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+.container{
+    max-width:1500px ;
+ 
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.para{
+    text-align: center;
+    margin: 10px 50px ;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    font-size: small;
+}
+
+
+.nav-links ul{
+ width: 480px;
+justify-content: end;
+gap: 25px;
+ 
+}
+
+.nav-links li{
+    font-size:medium;
+}
+.hover-links {
+    color: black;
+    
+    height: 20px;
+   
+
+}
+.hover-links:hover{
+    color: black;
+    transition: 3s ease-out;
+    text-decoration: underline white;
+    
+}
+.header-section{
+
+   font-weight: bold;
+ margin: 80px;
+}
+.header-left{
+   
+position:relative;
+width: 400px;
+gap: 30px;
+
+}
+
+.header-right{
+
+}
+.img-1{
+  
+    width: 5vw;
+    height: 55vh;
+
+   
+}
+.header-left h1{
+    
+    font-size: xx-large;
+    color: black;
+    font-weight: bold;
+}
+.header-left p{
+    margin-top: 20px;
+    font-size: large;
+    color: black;
+}
+.Primarys-button{
+
+background-color:white !important;
+color: maroon;
+width:40px;
+margin-bottom: 20px;
+
+}
+.primary-button{
+   background-color: black;
+   color: white;
+   width: 130px;
+   height: 50px;
+   text-align: center;
+   padding: 13px;
+   margin-top: 20px;
+ 
+}
+.icon-section {
+
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   flex-wrap: wrap;
+   margin-bottom: 80px;
+  
+}
+.microsoft-icon{
+    font-size: 4rem;
+    text-align: center;
+    color: black ;
+}
+.explore-surface-device{
+    font-size: 4rem;
+    text-align: center;
+    color: black;
+}
+.buy-xbox{
+    font-size: 4rem;
+    text-align: center;
+    color: black;
+}
+.get-windows11{
+    font-size: 4rem;
+    text-align: center;
+    color: black;
+    
+}
+.icon-section p{
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+.icon-section a{
+color: black;
+}
+
+.background-section{
+
+}
+.background-section img{
+    width: 1100px;
+    height: 550px;
+    margin-top: 50px;
+}
+.biss-1{
+    width: 190px;
+    margin-top: 90px;
+}
+.biss-2{
+    width: 190px;
+    margin-top:59px;
+}
+.biss-3{
+    width: 190px;
+    margin-top:2px;
+}
+.biss-4{
+    width: 210px;
+    margin-bottom: 1px;
+    margin-top: 30px;
+}
+.logo-section{
+    display: inline;
+   
+}
+.logo-section h2{
+ font-size: xx-large;
+ font-weight: bold;
+ margin-left: 50px;
+ margin-top: 40px;
+ margin-bottom: 10px;
+}
+.logo-section a{
+  font-size: xx-large;
+  
+   
+}
+.logo-section li{
+    display: inline;
+margin: 20px;
+margin-left: 20px;
+
+
+}
+
+@media only screen and (min-width:500px){
+ body{
+    orientation: portrait;
+ }
+ .header-section{
+
+    font-weight: bold;
+  margin: 50px;
+ }
+ .header-left{
+    
+ position:relative;
+ width: 300px;
+ gap: 10px;
+ 
+ }
+ .img-1{
+    height: 55vh;
+    width: 115vh;
+ }
+ .nav-links ul{
+    width: 200px;
+   justify-content: end;
+   gap: 15px;
+    
+   }
+   .nav-links li{
+    font-size:small;
+}
+}
+@media only screen and (orientation:portrait){
+    body{
+        width: 200px;
+    }
+}
+
+.logo1{
+    border-radius: 50%;
+}
+
+.anc a {
+    
+    padding: .4rem .7rem;
+    font-size: 15px;
+}
+
+.anc button {
+    border-radius: .4rem;
+}
+
+.anc {
+    margin-left: 2.8rem;
+    margin-bottom: 25rem;
+}
